@@ -3,8 +3,8 @@ pipeline{
 	stages{
 		stage('Checkout'){
 			steps{
-				git branch:main,
-				url:https://github.com/ro45che-ux/mavenPipeline10.git
+				git branch:'main',
+				url:'https://github.com/ro45che-ux/mavenPipeline10.git'
 			}
 		}
 		stage('Build'){
